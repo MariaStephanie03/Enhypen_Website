@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edges">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>ABOUT US PAGE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/en-logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="members.html">MEMBERS</a></li>
+					<li><a href="company.html">COMPANIES</a></li>
+					<li><a href="albums.html">ALBUMS</a></li>
+				</ul>	
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>ABOUT US</h1>
+	</section>
+
+<!-----About Us------>
+
+<section class="about-us"> 
+
+	<div class="row">
+		<div class="about-col">
+			<h1> E N H Y P E N </h1>
+			<p> One, Two, Connect! <br> Annyeonghaseyo, we are Enhypen.</p>
+			<p>ENHYPEN (엔하이픈) is the first boyband created by BELIFT LAB, a joint venture between HYBE and CJ E&M Entertainment (previously known as BigHit Entertainment),consisting of seven multinational members Heeseung, Jay, Jake, Sunghoon, Sunoo, Jungwon, and Ni-ki. They are the finalists of the global music competition show "I-Land", which finished airing in September 2020. The members have already shown infinite possibilities and growth not only as individuals, but also as a team. ENHYPEN is a mix of an en dash and a hyphen that connects different words to create new meaning, members of ENHYPEN will connect, discover each other, and grow together. ENHYPEN debuted on November 30th, 2020 with their mini-album “BORDER: DAY ONE” and title track “Given-Taken”</p>
+			<a href="" class="hero-btn LightSalmon-btn">Explore Now</a>
+		</div>
+		<div class="about-col">
+			<img src="images/en_boutus.jpg">
+		</div>
+	</div>
+	
+</section>
+
+
+
+
+
+<!-----Footer----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>ENHYPEN (엔하이픈) consists of seven members of the survival show I-LAND under BE:LIFT Lab, namely Heeseung, Jay, Jake, Sunghoon, Sunoo, Jungwon, and Ni-ki.</p>
+	<div class="icons">
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-youtube"></i>
+		<i class="fa fa-vLive"></i>
+		<i class="fa fa-tiktok"></i>
+		<i class="fa fa-weverse"></i>
+		<i class="fa fa-weibo"></i>
+	</div>
+	<p>Made by an Engene -- Stephanie</p>
+</section>
+
+
+	<!---------JavaScript for Toggle Menu------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>

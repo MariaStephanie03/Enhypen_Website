@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edges">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>COMPANY PAGE</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="images/en-logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="members.html">MEMBERS</a></li>
+					<li><a href="company.html">COMPANIES</a></li>
+					<li><a href="albums.html">ALBUMS</a></li>
+				</ul>	
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>COMPANIES</h1>
+	</section>
+
+<!------- COMPANIES------->
+
+<section class="companies">
+	<h1>Group Company</h1>
+	<p>HYBE, CJ ENM & BE:LIFT LAB</p>
+
+	<div class="row">
+		<div class="companies-col">
+			<p>Hybe strives to become the world's best music-based entertainment lifestyle platform company. "Content" that leads global trends and "fans" who are our customers are the two pillars of our core values, and we are committed to providing satisfaction to customers by continuously improving company.</p>
+			<img src="images/building.jpg">
+			<div class="layer">
+				<h3>HYBE</h3>
+			</div>
+		</div>
+		<div class="companies-col">
+			<p>CJ ENM is a global multiconvergent content commerce firm that has 16 channels. We are the leader in globalizing K-pop, hosting MAMA, one of Asia's most prestigious music awards, and KCON that amassed more than 823 thousand aggregate viewers.
+
+			</p>
+			<img src="images/building2.jpg">
+			<div class="layer">
+				<h3>CJ ENM</h3>
+			</div>
+		</div>
+		<div class="companies-col">
+			<p>BELIFT LAB is a label founded jointly by CJ ENM and HYBE, created with the goal of developing idol groups targeting the global market to drive the mainstreaming of K-pop while redefining and innovating the label business. Artists under this label include ENHYPEN, which debuted in November of 2020.</p>
+			<img src="images/building3.jpg">
+			<div class="layer">
+				<h3>BE:LIFT LAB</h3>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+
+<!-----Footer----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>ENHYPEN (엔하이픈) consists of seven members of the survival show I-LAND under BE:LIFT Lab, namely Heeseung, Jay, Jake, Sunghoon, Sunoo, Jungwon, and Ni-ki.</p>
+	<div class="icons">
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-youtube"></i>
+		<i class="fa fa-vLive"></i>
+		<i class="fa fa-tiktok"></i>
+		<i class="fa fa-weverse"></i>
+		<i class="fa fa-weibo"></i>
+	</div>
+	<p>Made by an Engene -- Stephanie</p>
+</section>
+
+
+	<!---------JavaScript for Toggle Menu------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+</script>
+
+
+</body>
+</html>
